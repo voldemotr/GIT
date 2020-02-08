@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/*contents*/
+button.grayBtn {border:1px solid #666666; color:white; background-color: #7d7d7d; border-radius: 3px; font-family:"NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif; margin-right:2px; /*margin-top:5px; float:left;margin-left:6px;*/}
+.ico {padding:6px 10px;}
+.fr{float: right; clear: both;}
+/*gray*/
+button.grayBtn02 {border:1px solid #666666; color:white; background-color: #666666; border-radius: 3px; /*margin-top:5px;*/}
+button.grayBtn:hover , button.grayBtn.on {background-color:#292929; border:1px solid #1b1b1b;}
+button.grayBtn02:hover , button.grayBtn02.on {background-color:#292929; border:1px solid #1b1b1b;}
+/*blue*/
+button.blueBtn {border:1px solid #016CAC; color:white; background-color:#017AC3; background-image: url('../images/ico_right_arrow.png'); background-repeat: no-repeat; background-position: right center;}
+button.blueBtn:hover , button.blueBtn.on {border:1px solid #0049b4; background-color:#0055d1;}
+/*사이즈*/
+button.L{padding:7px 21px 6px; min-width: 60px; font-size:13px;}
+button.M {padding:5px 10px; min-width: 60px; font-size:12px;}
+button.S{padding:3px 15px;}
+/*contents*/

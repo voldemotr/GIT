@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+/*contents*/
+.contents {margin-left:40px; float:left; width:980px;}
+.contentTitle {font-size:20px; margin-top:7px; float:left; margin-bottom:20px;}
+.sub_path {float:right; margin-top:6px;}
+.potalMenu {float:left; width:980px; clear: both; /*margin-bottom: 15px;*/}
+.menuWrapLeft {float:left; /*width:480px;*/ margin-right:19px;}
+.menumap {width:204px; border:1px solid #d7d7d7; padding:12px;  margin-bottom:15px; height:385px; overflow-y:scroll; /*float:left; display:inline-block;*//*height의 경우 삭제 하셔도 됩니다.*/}
+.menuWrapright {float:left; width:730px; }
+.menuBigTable {border:1px solid #d7d7d7; padding:4px; height:400px; margin-bottom:15px;/*  width:100%;*/}
+#inactive {background:#dadada;}
+.authority_info {width:470px; border:1px solid #d7d7d7; padding:4px; height:400px;}
+.user_info {float:left; width:480px; }
+.potalBig_Menu {clear:both; border:1px solid #d7d7d7; padding:4px;}
+
+/*contents*/

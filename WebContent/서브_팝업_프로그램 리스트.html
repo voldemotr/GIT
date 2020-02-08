@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css">  
+    <!--현업 popup-->
+    <link rel="stylesheet" type="text/css" href="css/windowPop.css">                  
+                   
+                 
+
+</head>
+
+<body>
+    <div id="windowPopup">
+        <p class="windowTitle">프로그램 리스트</p>
+        <span class="btn_close"><a href="#"><img src="images/btn_close.gif" width="27" height="27" /></a></span>        
+        <div class="potalMenu">
+            <div class="selectBox">
+                <select name="select" class="w13p">
+                    <option>프로그램명</option>
+                </select>
+                <input class="searchName" name="" type="text" style="width:737px;"/>
+                <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 검색</button>
+            </div>    
+            <div class="tableLayer">
+                <table class="tableList">
+                    <caption></caption>
+                    <colgroup>
+                        <col width="7%">
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="43%">
+                     </colgroup>
+                    <thead>
+                        <th class="noBg">선택</th>
+                        <th>프로그램명</th>
+                        <th>변수명</th>
+                        <th>프로그램 대표 URL</th>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td><input type="radio" name="" id="radio01" checked="checked" > <label for="radio01"></label></td>
+                            <td>메뉴4</td>
+                            <td>menu4</td>
+                            <td>/menu4/a/m/main4.do</td>
+                        </tr>
+                        <tr class="row">
+                            <td><input type="radio" name="" id="radio01"> <label for="radio01"></label></td>
+                            <td>메뉴3</td>
+                            <td>menu3</td>
+                            <td>/menu3/a/m/main3.do</td>
+                        </tr>                                                       
+                    </tbody>
+                </table>
+            </div>                  
+                                        
+        </div>
+        <div class="T_btnLayer fr">
+            <a href="#"><button type="button" class="blueBtn L">선택</button></a>
+            <a href="#"><button type="button" class="blueBtn L">취소</button></a>
+        </div> 
+        <!--페이징-->
+        <div class="paging_place">
+            <div class="paging_wrap">
+                <a href="#" title="맨 앞으로" class="pprev"></a>
+                <a href="#" title="이전" class="prev"></a>
+                <span>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                </span>
+                <a href="#" title="다음" class="next"></a>
+                <a href="#" title="맨 뒤로" class="nnext"></a>
+            </div>
+        </div>                         
+    </div>
+</body>
+</html>
+
+
+

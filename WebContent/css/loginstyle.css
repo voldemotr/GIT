@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+/*로그인*/
+.backcolor {background:#f0f0f0;}
+.login_wrap {margin:auto; width:100%; min-width:1024px; min-height:100%; }
+
+.loginBox {border-radius:11px; -moz-border-radius:11px; -webkit-border-radius:11px; background:#fff; border:1px solid #d7d9d9; width:632px; height:340px; margin:0 auto; margin-top:207px;}
+.loginBox h2 {margin:27px 0 23px 30px;}
+p.txt_login {background:url(../images/bg_login.jpg); width:632px; height:74px;}
+p.txt_login span { float:left; margin:27px 0 0 137px; color:#fff; font-weight:normal; font-size:22px; }
+dl.box_area {margin:50px 59px 0 58px;}
+dl.box_area dt {float:right;}
+dl.box_area dd {float:left; font-size:16px}
+dd.namebox {width:106px; margin-top:5px;}
+dd.boxin input {width:286px; height:30px; border:1px solid #cccccc; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; margin-bottom:9px;}
+

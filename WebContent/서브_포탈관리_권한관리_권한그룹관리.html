@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css">                    
+
+</head>
+
+<body>
+
+    <div class="header">
+        
+        <div class="header_centerBox">
+            <h1><img src="images/logo.png" width="143" height="19" /></h1>
+            <div class="lnb">
+            	<dl>
+                	<dt class="hidden">로그인, 로그아웃, 사이트맵 , 설정이 들어가는 자리입니다.</dt>
+                    <dd>엔키관리자님 환영합니다.</dd>
+                    <dd><a href="#" class="lbtn">로그아웃</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">사이트맵</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">설정</a></dd>
+              </dl>
+            </div><!--Local Navigation Bar End-->
+            
+            <div class="gnbWrap">
+                <div id="menuArea">
+                    <ul id="navi">
+                        <li id="menu"><a href="#">사용자관리</a></li>
+                        <li id="menu" class="selectMenu"><a href="#">포탈관리</a></li>
+                        <li id="menu"><a href="#">게시판관리</a></li>
+                        <li id="menu"><a href="#">설문관리</a></li>
+                    </ul>
+                </div>
+            </div>                  
+        </div><!--header_centerBox End-->
+    </div><!--header End-->	
+    
+    <div class="wrap">
+
+        <div class="container">
+			<div class="sub_leftMenu">
+            	<h3>포탈관리</h3>
+                <ul class="menuBox">
+                    <li class="bigMenu"><a href="#">프로그램관리</a></li>
+                    <li class="bigMenu"><a href="#">메뉴관리<span class="bullet"></span></a></li>
+                    <li class="bigMenu"><a href="#">권한관리</a>
+                        <div class="subMenu">
+                            <ul>
+                                <!--서브 메뉴 선택시 class="selectsubMenu"-->
+                                <!--li class="selectsubMenu"><a href="#">권한그룹 관리</a></li-->
+                                <li class="selectsubMenu"><a href="#">권한그룹 관리</a></li>
+                                <li class="smallMenu"><a href="#">권한별 사용자 관리</a></li>
+                                <li class="smallMenu"><a href="#">사용자별 권한 관리</a></li>                        	
+                            </ul>
+                        </div>                     
+                    </li>
+                	<li class="bigMenu"><a href="#">공통코드관리</a></li>                      
+                </ul>
+            </div>	
+            <div class="contents">
+            	<p class="contentTitle">권한관리</p>
+                <p class="sub_path"><img src="images/ico_home.png" width="10" height="9" />&nbsp;〉&nbsp;포탈관리〉&nbsp;권한관리&nbsp;〉&nbsp;권한그룹관리</p>
+				<div class="selectBox">
+                	<select name="select" class="w13p">
+                        <option>권한 그룹명</option>
+                    </select>
+                    <input class="searchName" name="" type="text" style="width:737px;"/>
+                    <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 검색</button>
+                </div> 
+                
+                <div class="tableLayer">
+                    <table class="tableList">
+                        <caption></caption>
+                        <colgroup>
+                            <col width="18%">
+                            <col width="18%">
+                            <col width="18%">
+                            <col width="46%">
+                         </colgroup>
+                        <thead>
+                            <th class="noBg">권한 아이디
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                             
+                            </th>
+                            <th>권한 코드
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                             
+                            </th>
+                            <th>권한 그룹명
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                             
+                            </th>
+                            <th>권한분류</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                                <td>ROL-000002</td>
+                                <td><a href="#">admin</a></td>
+								<td>관리자권한</td>
+								<td>포탈 관리자 메뉴 권한</td>
+                            </tr>
+                            <tr class="row">
+                                <td>ROL-000001</td>
+                                <td><a href="#">authenticated</a></td>
+								<td>인증된 사용자권한</td>
+								<td>일반 매뉴 권한</td>
+                            </tr>                                                                                                                                                                      
+                        </tbody>
+                    </table>
+                </div> 
+                <div class="T_btnLayer fr">
+                    <a href="#"><button type="button" class="blueBtn L">등록</button></a>
+                </div>                
+                <!--페이징-->
+                <div class="paging_place">
+                    <div class="paging_wrap">
+                        <a href="#" title="맨 앞으로" class="pprev"></a>
+                        <a href="#" title="이전" class="prev"></a>
+                        <span>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">7</a>
+                            <a href="#">8</a>
+                            <a href="#">9</a>
+                            <a href="#">10</a>
+                        </span>
+                        <a href="#" title="다음" class="next"></a>
+                        <a href="#" title="맨 뒤로" class="nnext"></a>
+                    </div>
+                </div>
+                                                            
+            </div>
+            
+        </div><!--container End-->
+        
+    </div><!--wrap End-->
+
+    <div class="footer">
+        <div class="footer_align">
+            <p class="footer_logo"><img src="images/logo2.png" width="144" height="18" /></p>
+            <span class="footer_text">06051 서울시 강남구 논현로 722 신한빌딩 4층  TEL :  02-419-6362  |  FAX : 02-419-6372<br />
+          Copyright(C) 2001 ENKISOFT, Inc. All Rights Reserved.<a href="mailto:cpcp@nia.or.kr">webmaster@enkisoft.co.kr</a></span>
+      </div>
+    </div><!--//footer-->   
+
+</body>
+</html>

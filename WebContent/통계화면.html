@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css">                    
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        
+        <div class="header_centerBox">
+            <h1><img src="images/logo.png" width="143" height="19" /></h1>
+            <div class="lnb">
+            	<dl>
+                	<dt class="hidden">로그인, 로그아웃, 사이트맵 , 설정이 들어가는 자리입니다.</dt>
+                    <dd>엔키관리자님 환영합니다.</dd>
+                    <dd><a href="#" class="lbtn">로그아웃</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">사이트맵</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">설정</a></dd>
+              </dl>
+            </div><!--Local Navigation Bar End-->
+            
+            <div class="gnbWrap">
+                <div id="menuArea">
+                    <ul id="navi">
+                        <li id="menu" class="selectMenu"><a href="#">사용자관리</a></li>
+                        <li id="menu"><a href="#">포탈관리</a></li>
+                        <li id="menu"><a href="#">게시판관리</a></li>
+                        <li id="menu"><a href="#">설문관리</a></li>
+                    </ul>
+                </div>
+            </div>                  
+        </div><!--header_centerBox End-->
+    </div><!--header End-->	
+    
+    <div class="wrap">
+
+        <div class="container">
+			<div class="sub_leftMenu">
+            	<h3>사용자관리</h3>
+                <ul class="menuBox">
+                    <li class="bigMenu"><a href="#">사용자관리</a>
+                        <div class="subMenu">
+                            <ul>
+                                <li class="selectsubMenu"><a href="#">사용자관리</a></li>
+                                <li class="smallMenu"><a href="#">메뉴2</a></li>                       	
+                            </ul>
+                        </div>                    
+                    </li>
+                	<li class="bigMenu"><a href="#">대메뉴2</a></li>                      
+                </ul>
+            </div>
+            	
+            <div class="contents">
+            	<p class="contentTitle">사용자 관리</p>
+                <p class="sub_path"><img src="images/ico_home.png" width="10" height="9" />&nbsp;〉&nbsp;사용자관리&nbsp;〉&nbsp;사용자관리</p>	                
+                <!--검색, 달력-->
+                <div class="selectBox">
+                    <span class="search_bullet">등록일</span>
+                    <span class="contents_search_bar"></span>                
+                    <div class="calendar_wrap">
+                        <label for=" " class="blind">등록 시작일</label>
+                        <input type="text" id="sampleDatePicker">
+                        <span type="button" class="ui-datepicker-trigger">...</span> 
+                        <span class="during">~</span>
+                        <input type="text" id="sampleDatePicker">
+                        <span type="button" class="ui-datepicker-trigger">...</span>                                                              
+                  
+                    </div>
+                    <div class="T_btnLayer cn">
+                        <button type="button" class="grayBtn ico">
+                            <img src="images/ico_search.png" alt="조회 버튼"/> 조회
+                        </button>
+                    </div> 
+                </div>
+                <!--select 박스-->
+				<div class="selectBox">
+                	<select name="select" class="w13p">
+                        <option>2014</option>
+                    </select>
+                    <input class="searchName" name="" type="text"/>
+                    <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 검색</button>
+                    <button type="button" class="grayBtn02 ico"> 초기화</button>
+                </div>  
+               <!--그래프-->
+                <div class="potalMenu">
+                    <div class="menuWrapLeft">
+                        <div class="authority_info">
+							그래프들어갑니다.                       	
+                        </div>                	
+                    </div>
+                    <div class="user_info">
+                        <div class="menuBigTable">
+							그래프들어갑니다.
+                        </div>
+                    </div>                                    
+                </div>  
+                <!--그래프-->                             				
+                <div class="potalBig_Menu" id="mb15">
+                	그래프들어갑니다.
+                </div>
+                <div class="tableLayer">
+                    <table class="tableList">
+                        <caption></caption>
+                        <colgroup>
+                            <col width="5%">
+                            <col width="20%">
+                            <col width="25%">
+                            <col width="20%">
+                            <col width="20%">
+                         </colgroup>
+                        <thead>
+                            <th class="noBg">번호</th>
+                            <th>아이디 
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                            
+                            </th>
+                            <th>성명
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                             
+                            </th>
+                            <th>부서</th>
+                            <th>가입일자
+								<span class="arrow_ascending"><a href="#"></a></span>
+                                <span class="arrow_descending"><a href="#"></a></span>                             
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                                <td>1</td>
+                                <td>test</td>
+								<td><a href="#">test</a></td>
+								<td>테스트부서</td>
+								<td>2014-02-07</td>
+                            </tr>
+                            <tr class="row">
+                                <td>2</td>
+                                <td>jshong</td>
+								<td><a href="#">홍준석</a></td>
+								<td>하위부서2</td>
+								<td>2016-05-12</td>
+                            </tr>
+                            <tr class="row">
+                                <td>3</td>
+                                <td>enki</td>
+								<td><a href="#">엔키관리자</a></td>
+								<td>최상위부서</td>
+								<td>2014-02-07</td>
+                            </tr>                                                        
+                        </tbody>
+                    </table>
+	               
+	                <!--페이징-->
+	                <div class="paging_place mb20">
+	                    <div class="paging_wrap">
+	                        <a href="#" title="맨 앞으로" class="pprev"></a>
+	                        <a href="#" title="이전" class="prev"></a>
+	                        <span class="mr4"><a href="#" class="active">1</a></span>	                           
+	                        <span class="mr4"><a href="#">2</a></span>
+	                        <span class="mr4"><a href="#">3</a></span>
+	                        <span class="mr4"><a href="#">4</a></span>
+	                        <span class="mr4"><a href="#">5</a></span>
+	                        <span class="mr4"><a href="#">6</a></span>
+	                        <span class="mr4"><a href="#">7</a></span>
+	                        <span class="mr4"><a href="#">8</a></span>
+	                        <span class="mr4"><a href="#">9</a></span>
+	                        <span><a href="#">10</a></span>
+	                        
+	                        <a href="#" title="다음" class="next"></a>
+	                        <a href="#" title="맨 뒤로" class="nnext"></a>
+	                    </div>
+	                </div>  
+	                                  
+                </div>
+                 
+                <div class="tableWrap">
+                    <div class="tableLayer wb fl20">
+                        <table class="tableList wb">
+                            <caption></caption>
+                            <colgroup>
+                                <col width="5%">
+                                <col width="20%">
+                                <col width="25%">
+                                <col width="20%">
+                                <col width="20%">
+                             </colgroup>
+                            <thead>
+                                <th class="noBg">번호</th>
+                                <th>아이디 
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                            
+                                </th>
+                                <th>성명
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                             
+                                </th>
+                                <th>부서</th>
+                                <th>가입일자
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                             
+                                </th>
+                            </thead>
+                            <tbody>
+                                <tr class="row">
+                                    <td>1</td>
+                                    <td>test</td>
+                                    <td><a href="#">test</a></td>
+                                    <td>테스트부서</td>
+                                    <td>2014-02-07</td>
+                                </tr>
+                                <tr class="row">
+                                    <td>2</td>
+                                    <td>jshong</td>
+                                    <td><a href="#">홍준석</a></td>
+                                    <td>하위부서2</td>
+                                    <td>2016-05-12</td>
+                                </tr>
+                                <tr class="row">
+                                    <td>3</td>
+                                    <td>enki</td>
+                                    <td><a href="#">엔키관리자</a></td>
+                                    <td>최상위부서</td>
+                                    <td>2014-02-07</td>
+                                </tr>                                                        
+                            </tbody>
+                        </table>
+	                
+	                <!--페이징-->
+	                <div class="paging_place mb20">
+	                    <div class="paging_wrap">
+	                        <a href="#" title="맨 앞으로" class="pprev"></a>
+	                        <a href="#" title="이전" class="prev"></a>
+	                        
+	                        <span class="mr4"><a href="#" class="active">1</a></span>	                           
+	                        <span class="mr4"><a href="#">2</a></span>
+	                        <span class="mr4"><a href="#">3</a></span>
+	                        <span class="mr4"><a href="#">4</a></span>
+	                        <span><a href="#">5</a></span>
+	                        
+	                        <a href="#" title="다음" class="next"></a>
+	                        <a href="#" title="맨 뒤로" class="nnext"></a>
+	                    </div>
+	                </div> 
+	                                        
+                    </div> 
+                    <div class="tableLayer wb">
+                        <table class="tableList wb">
+                            <caption></caption>
+                            <colgroup>
+                                <col width="5%">
+                                <col width="20%">
+                                <col width="25%">
+                                <col width="20%">
+                                <col width="20%">
+                             </colgroup>
+                            <thead>
+                                <th class="noBg">번호</th>
+                                <th>아이디 
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                            
+                                </th>
+                                <th>성명
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                             
+                                </th>
+                                <th>부서</th>
+                                <th>가입일자
+                                    <span class="arrow_ascending"><a href="#"></a></span>
+                                    <span class="arrow_descending"><a href="#"></a></span>                             
+                                </th>
+                            </thead>
+                            <tbody>
+                                <tr class="row">
+                                    <td>1</td>
+                                    <td>test</td>
+                                    <td><a href="#">test</a></td>
+                                    <td>테스트부서</td>
+                                    <td>2014-02-07</td>
+                                </tr>
+                                <tr class="row">
+                                    <td>2</td>
+                                    <td>jshong</td>
+                                    <td><a href="#">홍준석</a></td>
+                                    <td>하위부서2</td>
+                                    <td>2016-05-12</td>
+                                </tr>
+                                <tr class="row">
+                                    <td>3</td>
+                                    <td>enki</td>
+                                    <td><a href="#">엔키관리자</a></td>
+                                    <td>최상위부서</td>
+                                    <td>2014-02-07</td>
+                                </tr>                                                        
+                            </tbody>
+                        </table>
+	                
+	                <!--페이징-->
+	                <div class="paging_place mb20">
+	                    <div class="paging_wrap">
+	                        <a href="#" title="맨 앞으로" class="pprev"></a>
+	                        <a href="#" title="이전" class="prev"></a>
+
+	                        <span class="mr4"><a href="#" class="active">1</a></span>	                           
+	                        <span class="mr4"><a href="#">2</a></span>
+	                        <span class="mr4"><a href="#">3</a></span>
+	                        <span class="mr4"><a href="#">4</a></span>
+	                        <span><a href="#">5</a></span>
+
+	                        <a href="#" title="다음" class="next"></a>
+	                        <a href="#" title="맨 뒤로" class="nnext"></a>
+	                    </div>
+	                </div> 
+	                                    
+                    </div>                     
+                </div>                    
+                             
+            </div>
+            
+        </div><!--container End-->
+        
+    </div><!--wrap End-->
+
+    <div class="footer">
+        <div class="footer_align">
+            <p class="footer_logo"><img src="images/logo2.png" width="144" height="18" /></p>
+            <span class="footer_text">06051 서울시 강남구 논현로 722 신한빌딩 4층  TEL :  02-419-6362  |  FAX : 02-419-6372<br />
+          Copyright(C) 2001 ENKISOFT, Inc. All Rights Reserved.<a href="mailto:cpcp@nia.or.kr">webmaster@enkisoft.co.kr</a></span>
+      </div>
+    </div><!--//footer-->   
+
+</body>
+</html>

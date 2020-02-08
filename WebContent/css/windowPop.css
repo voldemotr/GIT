@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/*contents*/
+/*팝업의 크기는 w 1020px*/
+#windowPopup{
+    position: relative;
+    width:980px;
+    padding : 20px;
+    margin: 0 auto;
+	clear:both; 
+	background-color:#ffffff;
+	height:575px;
+}
+.w_contentTitle_h4 {font-size: 16px; margin-bottom: 8px; background:url('../images/bullet_circle.png') 0 50% no-repeat; clear:both; padding-left:11px;}
+.windowTitle {font-size:20px; margin-top:7px; float:left; margin-bottom:20px; float:left;}
+span.btn_close {float:right; margin-top:2px;}
+.w_potalMenu div {float:left;}
+.w_menuWrapLeft {width:449px; margin-right:22px; }
+.w_menuWrapLeft .selectBox {border-top:2px solid #7baade; border-bottom:1px solid #d7d7d7; background-color:#f9f9f9; height:32px; padding:7px 20px; margin-bottom:18px; width:409px;}
+.w_menuWrapLeft table.tableList2 ,.w_menuWrapRight table.tableList2 {border-top:2px solid #7baade; /*width:449px;*/ border-left:0; border-right:0;}
+.add_minus {margin:150px 15px 0 0; width:37px;}
+.add_minus li:nth-child(1) a {display:inline-block; background:url(../images/btn_addname.png) no-repeat; width:37px; height:37px;}
+.add_minus li:nth-child(1) a:hover {background:url(../images/btn_addname_on.png) no-repeat; width:37px; height:37px;}
+.add_minus li:nth-child(2) {margin-top:18px;}
+.add_minus li:nth-child(2) a {display:inline-block; background:url(../images/btn_minusname.png) no-repeat; width:37px; height:37px;}
+.add_minus li:nth-child(2) a:hover {background:url(../images/btn_minusname_on.png) no-repeat; width:37px; height:37px;}
+.w_menuWrapRight .user_info {float:left; width:456px; }
+.w_menuWrapRight {width:445px;}
+#windowPopup .w_menuBigTable {float:left; width:447px; margin-bottom:15px; border:1px solid #d7d7d7; padding:4px; height:400px; margin-bottom:15px;/*  width:100%;*/}
+.w_potalMenu .selectBox {width:940px;}
+.w_menuWrapLeft .selectBox {width:409px;}
+.w_potalMenu {float:left; width:980px; clear: both; /*margin-bottom: 15px;*/}
+
+
+/*contents*/

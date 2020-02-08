@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css">  
+    <!--현업 popup-->
+    <link rel="stylesheet" type="text/css" href="css/windowPop.css">                  
+
+</head>
+
+<body>
+    <div id="windowPopup">
+        <p class="windowTitle">권한별 사용자등록</p>
+        <div class="potalMenu">
+            <div class="menuWrapLeft">
+                <h4 class="contentTitle_h4">사용자 정보</h4>
+				<div class="selectBox">
+                	<select name="select" class="w25p">
+                        <option>사용자아이디</option>
+                    </select>
+                    <input class="searchName" name="" type="text" style="width:226px;"/>
+                    <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 조회</button>
+                </div>                
+                <h4 class="contentTitle_h4">사용자 리스트</h4>
+                <div class="info_table">
+                    <table class="tableList2">
+                        <caption></caption>
+                        <colgroup>
+                        	<col width="40px">
+                            <col width="118px">
+                            <col width="160px">
+                            <col width="133px">
+                         </colgroup>
+                        <thead>
+                      <th class="noBg">
+                                <label class="blind" for=""></label>  
+                                <input type="checkbox" name="" value="" id="" class="">                         
+                            </th>
+                            <th>사용자 ID</th>
+                            <th>사용자명</th>
+                            <th>부서</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                                <!--td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td-->  
+                                <td colspan="4">데이터가 없습니다.</td>
+                            </tr>                                                                                                                                                 
+                        </tbody>
+                    </table>
+                </div>                         	               	
+            </div>
+			<div class="add_minus">
+            	<ul>
+                	<li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>	
+            </div>
+		    <div class="menuWrapRight">
+              <div class="user_info">
+                    <h4 class="h4_other">권한그룹에 추가될 사용자 목록</h4>
+                    <!--메뉴체계도-->
+                    <div class="menuBigTable">
+                        <p class="user_name">test/test</p>
+                        <p class="user_name">enki/엔키관리자</p>
+                    </div>               	
+               </div>
+             </div>                    
+       
+        </div>         
+
+
+    </div>
+</body>
+</html>
+
+
+

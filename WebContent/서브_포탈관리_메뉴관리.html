@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css"> 
+    <!--현업 popup-->
+    <link rel="stylesheet" type="text/css" href="css/windowPop.css">   
+    
+</head>
+
+<body>
+
+    <div class="header">
+        
+        <div class="header_centerBox">
+            <h1><img src="images/logo.png" width="143" height="19" /></h1>
+            <div class="lnb">
+            	<dl>
+                	<dt class="hidden">로그인, 로그아웃, 사이트맵 , 설정이 들어가는 자리입니다.</dt>
+                    <dd>엔키관리자님 환영합니다.</dd>
+                    <dd><a href="#" class="lbtn">로그아웃</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">사이트맵</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">설정</a></dd>
+              </dl>
+            </div><!--Local Navigation Bar End-->
+            
+            <div class="gnbWrap">
+                <div id="menuArea">
+                    <ul id="navi">
+                        <li id="menu"><a href="#">사용자관리</a></li>
+                        <li id="menu" class="selectMenu"><a href="#">포탈관리</a></li>
+                        <li id="menu"><a href="#">게시판관리</a></li>
+                        <li id="menu"><a href="#">설문관리</a></li>
+                    </ul>
+                </div>
+            </div>                  
+        </div><!--header_centerBox End-->
+    </div><!--header End-->	
+    
+    <div class="wrap">
+
+        <div class="container">
+			<div class="sub_leftMenu">
+            	<h3>포탈관리</h3>
+                <ul class="menuBox">
+                    <li class="bigMenu"><a href="#">프로그램관리</a></li>
+                    <li class="selectbigMenu"><a href="#">메뉴관리<span class="bullet"></span></a></li>
+                    <li class="bigMenu"><a href="#">권한관리</a>
+                        <div class="subMenu">
+                            <ul>
+                                <!--서브 메뉴 선택시 class="selectsubMenu"-->
+                                <!--li class="selectsubMenu"><a href="#">권한그룹 관리</a></li-->
+                                <li class="smallMenu"><a href="#">권한그룹 관리</a></li>
+                                <li class="smallMenu"><a href="#">권한별 사용자 관리</a></li>
+                                <li class="smallMenu"><a href="#">사용자별 권한 관리</a></li>                        	
+                            </ul>
+                        </div>                     
+                    </li>
+                	<li class="bigMenu"><a href="#">공통코드관리</a></li>                      
+                </ul>
+            </div>	
+            <div class="contents">
+            	<p class="contentTitle">메뉴관리</p>
+                <p class="sub_path"><img src="images/ico_home.png" width="10" height="9" />&nbsp;〉&nbsp;포탈관리&nbsp;〉&nbsp;메뉴관리</p>  
+                <div class="potalMenu">
+                    <div class="menuWrapLeft">
+                        <h4 class="contentTitle_h4">메뉴체계도</h4>
+                        <!--메뉴체계도-->
+                        <div class="menumap">
+                        	<p>이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            이 박스의 높이는 내용이 추가될수록 늘어납니다. 작업 전에 css의 height를 삭제 하시고 작업하세요.
+                            
+                            
+                            </p>
+                        </div>
+                        <div class="T_btnLayer_b wp">
+                            <button type="button" class="grayBtn M">하위메뉴추가</button>
+                            <button type="button" class="grayBtn M fr">삭제</button>
+                        </div>                	
+                    </div>
+                    
+                    <div class="menuWrapright">
+                        <h4 class="contentTitle_h4">메뉴상세정보</h4>
+                        <!--메뉴체계도-->
+                        <div class="menuBigTable">
+                        	<p class="detailTitle">메뉴정보</p>
+                            <table class="menu_table">
+                                <caption></caption>
+                                <colgroup>
+                                <col width="148px">
+                                <col width="212px">
+                                <col width="148px">
+                                <col width="211px">
+                                </colgroup>
+                                <tbody class="line">
+                                    <tr>
+                                        <th class="bullet_orange">메뉴명</th>
+                                        <td>Home</td>
+                                        <th>메뉴구분</th>
+                                        <td>일반</td>
+                                    </tr>
+                                    <tr>
+                                        <th>사용유무</th>
+                                        <td>사용</td>
+										<th>정렬순서</th>
+                                        <td>1</td>                                        
+                                    </tr>
+                                    <tr>
+                                        <th>메뉴설명</th>
+                                        <td colspan="4"> 메인홈메뉴</td>
+                                    </tr>
+                                    <tr>
+                                        <th>타겟영역</th>
+                                        <td colspan="4"> 메인영역(콘텐츠)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>대상연결</th>
+                                        <td colspan="4"> 메인홈(프로그램)</td>
+                                    </tr>                                                                        
+                                 </tbody>
+                              </table>  
+                            <br />
+                        	<p class="detailTitle">권한정보</p>
+                            <span class="fr"><a href="#"><button type="button" class="grayBtn S">권한설정</button></a></span>                           
+
+                                <table class="tableList2">
+                                    <caption></caption>
+                                    <colgroup>
+                                    <col width="150px">
+                                	<col width="298px">
+                                	<col width="93px">
+                                	<col width="93px">
+                                	<col width="93px">
+                                    </colgroup>
+                                    <thead>
+                                        <th class="noBg">권한정보</th>
+                                        <th>권한그룹명</th>
+                                        <th>조회</th>
+                                        <th>등록</th>
+                                        <th>관리</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="row">
+                                            <td>authenticated</td>
+                                            <td>인증된 사용자권한</td>
+                                            <td>0</td>
+                                            <td>&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                          
+                        </div>
+                        <div class="T_btnLayer fr">
+                            <a href="#"><button type="button" class="blueBtn L">수정</button></a>
+                            <!--a href="#"><button type="button" class="blueBtn L">취소</button></a-->
+                        </div>                	
+                    </div>                
+               
+                </div>
+
+                
+
+               
+                                                            
+            </div>
+            
+        </div><!--container End-->
+        
+    </div><!--wrap End-->
+
+    <div class="footer">
+        <div class="footer_align">
+            <p class="footer_logo"><img src="images/logo2.png" width="144" height="18" /></p>
+            <span class="footer_text">06051 서울시 강남구 논현로 722 신한빌딩 4층  TEL :  02-419-6362  |  FAX : 02-419-6372<br />
+          Copyright(C) 2001 ENKISOFT, Inc. All Rights Reserved.<a href="mailto:cpcp@nia.or.kr">webmaster@enkisoft.co.kr</a></span>
+      </div>
+    </div><!--//footer-->   
+    
+    <!--권한설정 팝업-->
+    <div id="windowPopup">
+            <p class="windowTitle">권한설정</p>
+        	<span class="btn_close"><a href="#"><img src="images/btn_close.gif" width="27" height="27" /></a></span>            
+            <div class="w_potalMenu">
+                <div class="w_menuWrapLeft">
+                    <h4 class="w_contentTitle_h4">권한목록</h4>
+                    <div class="w_menuBigTable" id="p0">
+                        <div class="info_table">
+                            <table class="tableList2">
+                                <caption></caption>
+                                <colgroup>
+                                    <col width="52px">
+                                    <col width="178px">
+                                    <col width="218px">
+                                 </colgroup>
+                                <thead>
+                                    <th class="noBg">
+                                        <label class="blind" for=""></label>  
+                                        <input type="checkbox" name="" value="" id="" class="">                         
+                                    </th>
+                                    <th>사용자 ID</th>
+                                    <th>사용자명</th>
+                                </thead>
+                                <tbody>
+                                    <tr class="row">
+                                        <td>
+                                            <label class="blind" for=""></label>  
+                                            <input type="checkbox" name="" value="" id="" class="">                                         
+                                        </td>
+                                        <td>admin</td>
+                                        <td>관리자권한</td>
+                                    </tr>                                                                                                                                                 
+                                </tbody>
+                            </table>
+                        </div>                         	               	
+                    </div>                          	
+                </div>
+                <div class="add_minus">
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>	
+                </div>
+                <div class="w_menuWrapRight">
+                  <div class="user_info">
+                        <h4 class="h4_other">메뉴 맵핑 목록</h4>
+                        <!--메뉴체계도-->
+                        <div class="w_menuBigTable"  id="p0">
+                            <div class="info_table">
+                                <table class="tableList2">
+                                    <caption></caption>
+                                    <colgroup>
+                                        <col width="50px">
+                                        <col width="190px">
+                                        <col width="69px">
+                                        <col width="69px">
+                                        <col width="69px">
+                                     </colgroup>
+                                    <thead>
+                                        <th class="noBg">
+                                            <label class="blind" for=""></label>  
+                                            <input type="checkbox" name="" value="" id="" class="">                         
+                                        </th>
+                                        <th>권한그룹</th>
+                                        <th>조회</th>
+                                        <th>등록</th>
+                                        <th>관리</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="row">
+                                            <td>
+                                                <label class="blind" for=""></label>  
+                                                <input type="checkbox" name="" value="" id="" class="">                                         
+                                            </td>
+                                            <td>인증된 사용자 권한</td>
+                                            <td><input type="radio" name="" id="radio01" checked="checked" > <label for="radio01"></label></td>
+                                            <td><input type="radio" name="" id="radio02"> <label for="radio02"></label> </td>
+                                            <td><input type="radio" name="" id="radio02"> <label for="radio02"></label> </td>
+                                        </tr>                                                                                                                                                 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>                                 	
+                   </div>
+                 </div>                                          
+            </div>
+            <div class="T_btnLayer fr">
+                <a href="#"><button type="button" class="blueBtn L">저장</button></a>
+                <a href="#"><button type="button" class="blueBtn L">취소</button></a>
+            </div>                  
+        </div>
+
+	<!--사용자 권한등록 팝업-->
+    <div id="windowPopup">
+        <p class="windowTitle">사용자 권한등록</p>
+		<span class="btn_close"><a href="#"><img src="images/btn_close.gif" width="27" height="27" /></a></span>         
+        <div class="w_potalMenu">
+            <div class="w_menuWrapLeft">
+                <h4 class="w_contentTitle_h4">등록할 수 있는 권한</h4>
+                <div class="w_menuBigTable">
+                    <p class="user_name">
+                        <label class="blind" for=""></label>
+                        <input type="checkbox" value=""></input>  
+                        관리자권한/admin                           
+                    </p>
+                </div>                          	
+            </div>
+			<div class="add_minus">
+            	<ul>
+                	<li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>	
+            </div>
+		    <div class="w_menuWrapRight">
+              <div class="user_info">
+                    <h4 class="h4_other">등록 권한</h4>
+                    <!--메뉴체계도-->
+                    <div class="w_menuBigTable">
+                        <p class="user_name">
+                            <label class="blind" for=""></label>
+                            <input type="checkbox" value=""></input>  
+                            관리자권한/admin                           
+                        </p>
+                    </div>                                 	
+               </div>
+             </div>                                          
+        </div>
+        <div class="T_btnLayer fr">
+            <a href="#"><button type="button" class="blueBtn L">저장</button></a>
+            <a href="#"><button type="button" class="blueBtn L">취소</button></a>
+        </div>                  
+    </div>
+    
+    <!--프로그램 리스트-->
+    <div id="windowPopup">
+        <p class="windowTitle">프로그램 리스트</p>
+        <span class="btn_close"><a href="#"><img src="images/btn_close.gif" width="27" height="27" /></a></span> 
+        <div class="w_potalMenu">
+            <div class="selectBox">
+                <select name="select" class="w13p">
+                    <option>프로그램명</option>
+                </select>
+                <input class="searchName" name="" type="text" style="width:737px;"/>
+                <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 검색</button>
+            </div>    
+            <div class="tableLayer">
+                <table class="tableList">
+                    <caption></caption>
+                    <colgroup>
+                        <col width="7%">
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="43%">
+                     </colgroup>
+                    <thead>
+                        <th class="noBg">선택</th>
+                        <th>프로그램명</th>
+                        <th>변수명</th>
+                        <th>프로그램 대표 URL</th>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td><input type="radio" name="" id="radio01" checked="checked" > <label for="radio01"></label></td>
+                            <td>메뉴4</td>
+                            <td>menu4</td>
+                            <td>/menu4/a/m/main4.do</td>
+                        </tr>
+                        <tr class="row">
+                            <td><input type="radio" name="" id="radio01"> <label for="radio01"></label></td>
+                            <td>메뉴3</td>
+                            <td>menu3</td>
+                            <td>/menu3/a/m/main3.do</td>
+                        </tr>                                                       
+                    </tbody>
+                </table>
+            </div>                  
+                                        
+        </div>
+        <div class="T_btnLayer fr">
+            <a href="#"><button type="button" class="blueBtn L">선택</button></a>
+            <a href="#"><button type="button" class="blueBtn L">취소</button></a>
+        </div> 
+        <!--페이징-->
+        <div class="paging_place">
+            <div class="paging_wrap">
+                <a href="#" title="맨 앞으로" class="pprev"></a>
+                <a href="#" title="이전" class="prev"></a>
+                <span>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <a href="#">8</a>
+                    <a href="#">9</a>
+                    <a href="#">10</a>
+                </span>
+                <a href="#" title="다음" class="next"></a>
+                <a href="#" title="맨 뒤로" class="nnext"></a>
+            </div>
+        </div>                         
+    </div>    
+    
+    <!--권한별 사용자 관리 수정-->
+    <div id="windowPopup">
+        <p class="windowTitle">권한별 사용자등록</p>
+        <span class="btn_close"><a href="#"><img src="images/btn_close.gif" width="27" height="27" /></a></span> 
+        <div class="w_potalMenu">
+            <div class="w_menuWrapLeft">
+                <h4 class="w_contentTitle_h4">사용자 정보</h4>
+				<div class="selectBox">
+                	<select name="select" class="w25p">
+                        <option>사용자아이디</option>
+                    </select>
+                    <input class="searchName" name="" type="text" style="width:222px;"/>
+                    <button type="button" class="grayBtn ico"><img src="images/ico_search.png"> 조회</button>
+                </div>                
+                <h4 class="w_contentTitle_h4">사용자 리스트</h4>
+                <div class="info_table">
+                    <table class="tableList2">
+                        <caption></caption>
+                        <colgroup>
+                        	<col width="40px">
+                            <col width="118px">
+                            <col width="160px">
+                            <col width="133px">
+                         </colgroup>
+                        <thead>
+                      <th class="noBg">
+                                <label class="blind" for=""></label>  
+                                <input type="checkbox" name="" value="" id="" class="">                         
+                            </th>
+                            <th>사용자 ID</th>
+                            <th>사용자명</th>
+                            <th>부서</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                                <!--td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td-->  
+                                <td colspan="4">데이터가 없습니다.</td>
+                            </tr>                                                                                                                                                 
+                        </tbody>
+                    </table>
+                </div>                         	               	
+            </div>
+			<div class="add_minus">
+            	<ul>
+                	<li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>	
+            </div>
+		    <div class="w_menuWrapRight">
+              <div class="user_info">
+                    <h4 class="h4_other">권한그룹에 추가될 사용자 목록</h4>
+                    <!--메뉴체계도-->
+                    <div class="w_menuBigTable">
+                        <p class="user_name">test/test</p>
+                        <p class="user_name">enki/엔키관리자</p>
+                    </div>               	
+               </div>
+             </div>                    
+        </div>         
+    </div>    
+</body>
+</html>

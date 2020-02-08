@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/*contents*/
+.tableLayer {float:left; width:100%; clear: both; /*margin-bottom: 15px; margin-top:15px;*/}
+
+.tableList td.left_T {text-align: left; text-indent: 15px;}
+/*일반적인 list table*/
+.tableLayer table.tableList{ border-top:2px solid #7a7a7a; border-left:1px solid #d9d9d9; border-right:1px solid #d9d9d9;}
+.tableList{ width:980px; font:12px "NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;}
+.tableList th{padding : 10px 0 ; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList thead th{ background-color: #f6f6f6; background-image: url('../images/bar_util15.png'); background-repeat: no-repeat; background-position: left center; text-align: center; border-bottom:1px solid #DCDCDC;
+ font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList thead th.noBg{ background-image: none;}
+.tableList tbody td{padding :0 8px; height:35px; text-align: center; border-bottom: 1px solid #DCDCDC; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.table {width:980px; font:12px "NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif; text-align: left; color:#505050 ! important; margin-bottom:15px;}
+.table .line{ border-top:2px solid #7a7a7a;}
+.table th.bullet_orange{ text-align: left; background-color:#f6f6f6; background-image: url('../images/bullet_orange.png');  background-repeat: no-repeat; background-position: 10px center;
+    font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif; padding :  0 8px; border: 1px solid #d9d9d9; text-indent: 10px; line-height: 1.5em; height:35px;}
+.table td{ padding : 0 8px; border: 1px solid #d9d9d9; height:35px;}
+.table th{ text-align: left; background-color:#f6f6f6; background-image: url('../images/bullet_square.png'); background-repeat: no-repeat; background-position: 10px center; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;
+    padding :  0 8px; border: 1px solid #d9d9d9; text-indent: 10px; line-height: 1.5em; height:35px;}
+.selectLayer1 select, .table_list select, .table select, .tableList select, .menu_table select {height:30px; margin-top:1px; padding:3px 3px; border:1px solid #d4d4d4; line-height:30px; cursor:pointer}
+.arrow_all a {background:url(../images/arrow_all.jpg) no-repeat;  background-position:0 top; display:inline-block; width:9px; height:21px;  position:absolute;}
+.arrow_ascending a {background:url(../images/arrow_ascending.png) no-repeat; background-position:0 center; display:inline-block; width:9px; height:6px; position:absolute; margin-left:5px;}
+.arrow_descending a {background:url(../images/arrow_descending.png) no-repeat; background-position:0 center; display:inline-block; width:9px; height:20px;  position:absolute; margin-top:2px; margin-left:5px;}
+.arrow_ascending a:hover {background:url(../images/arrow_ascending_over.png) no-repeat; background-position:0 center; display:inline-block; width:9px; height:6px; position:absolute;}
+.arrow_descending a:hover {background:url(../images/arrow_descending_over.png) no-repeat; background-position:0 center; display:inline-block; width:9px; height:20px;  position:absolute; margin-top:2px;}
+.pdtb3 {padding-top:3px!important; padding-bottom:3px!important;}
+.tableLayer table.table textarea{ width:100%; border: 1px solid #ccc; height: 67px; padding: 4px 0 0 0; color: #666; font: 12px "나눔고딕", NanumGothic; background: #fff; vertical-align: top; line-height: 20px; resize: vertical;}
+
+.menu_table {font:12px "NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif; text-align: left; color:#505050 ! important;}
+.menu_table .line{ border-top:2px solid #7a7a7a;}
+.menu_table th.bullet_orange{ text-align: left; background-color:#f6f6f6; background-image: url('../images/bullet_orange.png');  background-repeat: no-repeat; background-position: 10px center;
+    font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif; padding :  0 8px; border: 1px solid #d9d9d9; text-indent: 10px; line-height: 1.5em; height:35px;}
+.menu_table td{ padding : 0 8px; border: 1px solid #d9d9d9; height:35px;}
+.menu_table th{ text-align: left; background-color:#f6f6f6; background-image: url('../images/bullet_square.png'); background-repeat: no-repeat; background-position: 10px center; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;
+    padding :  0 8px; border: 1px solid #d9d9d9; text-indent: 10px; line-height: 1.5em; height:35px;}
+.menu_table thead th{background-color: #f6f6f6; background-image: url('../images/bar_util15.png'); background-repeat: no-repeat; background-position: left center; text-align: center; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+
+ table.tableList2 { border-top:2px solid #7a7a7a; border-left:1px solid #d9d9d9; border-right:1px solid #d9d9d9; /*width:470px;*/}
+.tableList2 { /*width:980px;*/ font:12px "NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;}
+.tableList2 th{padding : 10px 0 ; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList2 thead th{ background-color: #f6f6f6; background-image: url('../images/bar_util15.png'); background-repeat: no-repeat; background-position: left center; text-align: center; border-bottom:1px solid #DCDCDC;
+ font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList2 thead th.noBg{ background-image: none;}
+.tableList2 tbody td{ padding : 8px 8px; text-align: center; border-bottom: 1px solid #DCDCDC; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.info_table
+
+.info_table {float:left; width:480px; clear: both; margin-bottom: 15px;}
+
+.tableList td.left_T {text-align: left; text-indent: 15px;}
+/*일반적인 list table*/
+.info_table table.tableList{ border-top:2px solid #7a7a7a; border-left:1px solid #d9d9d9; border-right:1px solid #d9d9d9;}
+.tableList{ width:980px; font:12px "NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif; margin-bottom:15px;}
+.tableList th{padding : 10px 0 ; font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList thead th{ background-color: #f6f6f6; background-image: url('../images/bar_util15.png'); background-repeat: no-repeat; background-position: left center; text-align: center; border-bottom:1px solid #DCDCDC;
+ font:12px "NanumGothicBold", NanumGothicBold, Dotum, "돋움", Arial, sans-serif;}
+.tableList thead th.noBg{ background-image: none;}
+.tableList tbody td{ padding :0 8px; height:35px; text-align: center; border-bottom: 1px solid #DCDCDC; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.color_red {color:red; font-weight:600;}
+#align_fr {float:left;}
+
+.tableWrap {width:980px; clear:both;}
+/*contents*/

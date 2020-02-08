@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <title>BASIC administrator</title>
+    
+    <!--공통css-->
+    <link rel="stylesheet" type="text/css" href="css/common.css"> 
+    <!--현업 main page-->
+    <link rel="stylesheet" type="text/css" href="css/worksite.css">                    
+
+</head>
+
+<body>
+
+    <div class="header">
+        
+        <div class="header_centerBox">
+            <h1><img src="images/logo.png" width="143" height="19" /></h1>
+            <div class="lnb">
+            	<dl>
+                	<dt class="hidden">로그인, 로그아웃, 사이트맵 , 설정이 들어가는 자리입니다.</dt>
+                    <dd>엔키관리자님 환영합니다.</dd>
+                    <dd><a href="#" class="lbtn">로그아웃</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">사이트맵</a></dd>
+                    <dd class="lbar"><img src="images/lnb_bar.gif" width="1" height="10" /></dd>
+                    <dd><a href="#">설정</a></dd>
+              </dl>
+            </div><!--Local Navigation Bar End-->
+            
+            <div class="gnbWrap">
+                <div id="menuArea">
+                    <ul id="navi">
+                        <li id="menu"><a href="#">사용자관리</a></li>
+                        <li id="menu" class="selectMenu"><a href="#">포탈관리</a></li>
+                        <li id="menu"><a href="#">게시판관리</a></li>
+                        <li id="menu"><a href="#">설문관리</a></li>
+                    </ul>
+                </div>
+            </div>                  
+        </div><!--header_centerBox End-->
+    </div><!--header End-->	
+    
+    <div class="wrap">
+
+        <div class="container">
+			<div class="sub_leftMenu">
+            	<h3>포탈관리</h3>
+                <ul class="menuBox">
+                    <li class="bigMenu"><a href="#">프로그램관리</a></li>
+                    <li class="bigMenu"><a href="#">메뉴관리<span class="bullet"></span></a></li>
+                    <li class="bigMenu"><a href="#">권한관리</a>
+                        <div class="subMenu">
+                            <ul>
+                                <!--서브 메뉴 선택시 class="selectsubMenu"-->
+                                <!--li class="selectsubMenu"><a href="#">권한그룹 관리</a></li-->
+                                <li class="smallMenu"><a href="#">권한그룹 관리</a></li>
+                                <li class="smallMenu"><a href="#">권한별 사용자 관리</a></li>
+                                <li class="smallMenu"><a href="#">사용자별 권한 관리</a></li>                        	
+                            </ul>
+                        </div>                     
+                    </li>
+                	<li class="selectbigMenu"><a href="#">공통코드관리</a></li>                      
+                </ul>
+            </div>	
+            <div class="contents">
+            	<p class="contentTitle">공동코드관리</p>
+                <p class="sub_path"><img src="images/ico_home.png" width="10" height="9" />&nbsp;〉&nbsp;포탈관리〉&nbsp;공통코드관리</p>
+                <h4 class="contentTitle_h4">코드관리 등록</h4>
+                <div class="tableLayer">
+                    <table class="table">
+                        <caption></caption>
+                        <colgroup>
+                        <col width="150px">
+                        <col width="339px">
+						<col width="150px">
+                        <col width="339px">                        
+                        </colgroup>
+                        <tbody class="line">
+                            <tr>
+                                <th>대분류코드</th>
+                                <td>t1</td>
+                                <th>대분류명</th>
+                                <td>test</td>
+                            </tr>
+                            <tr>
+                                <th>대분류코드설명</th>
+                                <td colspan="3">test</td>
+                            </tr>
+                            <tr>
+                                <th>사용여부</th>
+                                <td colspan="3"> Y</td>
+                            </tr>                           
+                         </tbody>
+                      </table>        
+                </div>  
+                
+              <div class="tableLayer">
+                    <table class="tableList">
+                        <caption></caption>
+                        <colgroup>
+                            <col width="20%">
+                            <col width="26%">
+                            <col width="26%">
+                            <col width="14%">
+                        <col width="14%">
+                         </colgroup>
+                        <thead>
+                            <th class="noBg">중분류코드</th>
+                            <th>중분류명</th>
+                            <th>설명</th>
+                            <th>순서</th>
+                            <th>사용유무</th>
+                        </thead>
+                        <tbody>
+                            <tr class="row">
+                                <td>t1</td>
+                                <td><a href="#">14</a></td>
+								<td>test4</td>
+                                <td>2</td>
+								<td>Y</td>
+                            </tr>                                                                                                                                                                                               
+                      </tbody>
+                    </table>
+                </div> 
+                <div class="T_btnLayer fr">
+                    <a href="#"><button type="button" class="blueBtn L">수정</button></a>
+                    <a href="#"><button type="button" class="blueBtn L">목록</button></a>
+                </div>                              
+                                                            
+            </div>
+            
+        </div><!--container End-->
+        
+    </div><!--wrap End-->
+
+    <div class="footer">
+        <div class="footer_align">
+            <p class="footer_logo"><img src="images/logo2.png" width="144" height="18" /></p>
+            <span class="footer_text">06051 서울시 강남구 논현로 722 신한빌딩 4층  TEL :  02-419-6362  |  FAX : 02-419-6372<br />
+          Copyright(C) 2001 ENKISOFT, Inc. All Rights Reserved.<a href="mailto:cpcp@nia.or.kr">webmaster@enkisoft.co.kr</a></span>
+      </div>
+    </div><!--//footer-->   
+
+</body>
+</html>

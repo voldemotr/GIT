@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* font-face */
+@font-face{
+    font-family: "NanumGothic";
+    src: url('font/NanumGothic.eot');
+    src:local('※'), url('font/NanumGothic.woff') format('woff');
+}
+@font-face{
+    font-family: "NanumGothicBold";
+    src: url('font/NanumGothicBold.eot');
+    src:local('※'), url('font/NanumGothicBold.woff') format('woff');
+}
+/* reset css */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, radio, select, p, button {margin:0;padding:0}
+body, h1, h2, h3, h4, th, td, input {font-family:"NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;font-size:12px;color:#555;line-height:1.5em;font-weight:normal}
+select, textarea {font-family:"NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;font-size:12px;color:#333333}
+html, body {height:100%}
+
+*{margin: 0; padding: 0;}
+a:link, a:visited {text-decoration:none;color:#333333}
+table {border-collapse:collapse;border-spacing:0;line-height: 0;}
+caption, legend {overflow:hidden;visibility:hidden;width:0;height:0;text-indent:-9999px;line-height:0;font-size:0;position:absolute;top:-9999em}
+img, fieldset, button {border:0}
+button:focus, button:active{border:0; outline: 0;}
+input, select, textarea {vertical-align:middle}
+textarea{border:1px solid #d9d9d9; resize: none; white-space: pre-line;}
+img {vertical-align:middle} 
+ul, ol, li {list-style:none}
+hr {display:none}
+em, address {font-style:normal}
+input {font-family:"NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;color:#333333;/* border:1px solid #d9d9d9;*/ text-indent: 10px;}
+select {border:1px solid #dedede;font-size:12px;vertical-align:middle;line-height:1.5em;font-family:"NanumGothic", NanumGothic , Dotum, '돋움', Arial, sans-serif;color:#555;}
+input, select {font-size:100%;vertical-align:middle}
+button, label, input[type=image] {cursor:pointer}
+button {background:none;padding:0;border:0 none;display:inline-block;margin:0;cursor:pointer;font-family:"NanumGothic", NanumGothic, Dotum, "돋움", Arial, sans-serif;font-size:12px}
+input[type=checkbox]{border:0;}
+input[type=radio]{border:0;}
